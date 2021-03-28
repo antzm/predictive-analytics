@@ -29,4 +29,15 @@ And this line needs to be calculated in an objective way, otherwise each data an
 Thus, to calculate in an objective way the regression line, we need to calculated the distance of each point in the scatterplot from the regression line. Then, using the proper mathematical tools, we try to minimize that value, which measn that the line is the best fit for all the data.
 
 To avoid mistakes by positive and negative values summing up to zero, we raise to the square each distance, between a point and the regression line,, and then we try to minimize the sum of those squared values. For this reason, the method is called method of the OLS (ordinary least squares).
+
+### Linear Regression using Excel
+
+In Excel we can easily create a scatter plot for a predictor and a target variable and then add the linear regression line on the graph.
+
+Somethimes though, our data is in CSV (comma separated values) format, and it could be time consuming to import that data in Excel, espeially if the data are formated in e.g. US number format and they need to be analyzed on a computer using European number format.
+
+Thus, the easiest approach to convert a CSV file to Excel, is to use a Jupyter Notebook and a few lines of code. 
+
+Not everyone one though has a Jupyter Notebook server running on their computers, and for this reason, below is a simple approach than can be used on any computer to easily convert a CSV file to an Excel file:
+
  

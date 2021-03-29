@@ -40,4 +40,35 @@ Thus, the easiest approach to convert a CSV file to Excel, is to use a Jupyter N
 
 Not everyone one though has a Jupyter Notebook server running on their computers, and for this reason, below is a simple approach than can be used on any computer to easily convert a CSV file to an Excel file:
 
- 
+First, we should login to our Google account
+
+Then, we use Google search and search for: google colab
+
+We click on the first result and then, on the popup window we select "New Notebook"
+
+Then, in the code cells of the notebook, we run the following code:
+
+```python
+#Code cell 1:
+# Import libraries and modules
+import pandas as pd
+from google.colab import files
+
+#Code cell 2:
+# Uploading the CSV file (e.g. my_uploaded_file.csv)
+files.upload()
+
+#Code cell 3:
+# Importing the CSV file to a Pandas DataFrame
+# and assuming that the separator is a comma and the decimal point is a dot
+my_data = pd.read_csv("my_uploaded_file.csv", sep=',', header=0, decimal='.', encoding='utf_8')
+
+#Code cell 4:
+# Exporting the Pandas DataFrame to an Excel file
+my_data.to_excel("my_output_file.xlsx", header=True, index=False)
+
+#Code cell 4:
+# Downloading the Excel file
+files.download('my_output_file.xlsx')
+
+```

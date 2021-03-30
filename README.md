@@ -72,3 +72,18 @@ my_data.to_excel("my_output_file.xlsx", header=True, index=False)
 files.download('my_output_file.xlsx')
 
 ```
+
+When using this code on a local computer, the part for importing the Google module and the parts for uploading and downloading the files, can be ommited and the code can be simplified to:
+
+```python
+# Importing the Pandas library
+import pandas as pd
+
+# Importing the CSV file to a Pandas DataFrame
+# and assuming that the separator is a comma and the decimal point is a dot
+my_data = pd.read_csv("my_uploaded_file.csv", sep=',', header=0, decimal='.', encoding='utf_8')
+
+# Exporting the Pandas DataFrame to an Excel file
+my_data.to_excel("my_output_file.xlsx", header=True, index=False)
+
+```

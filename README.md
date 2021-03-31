@@ -62,10 +62,15 @@ files.upload()
 # Importing the CSV file to a Pandas DataFrame
 # and assuming that the separator is a comma and the decimal point is a dot
 my_data = pd.read_csv("my_uploaded_file.csv", sep=',', header=0, decimal='.', encoding='utf_8')
+# either sep=',' or sep=';' or sep=' ' or sep='\t' depending on the separator or delimiter
+# header=0 if there are headers on the first row or header=None if there re no headers
+# decimal='.' or decimal=','
 
 #Code cell 4:
 # Exporting the Pandas DataFrame to an Excel file
 my_data.to_excel("my_output_file.xlsx", header=True, index=False)
+# header=True for including the headers in the Excel file
+# index=False for not including an index column (0, 1, 2, 3...)
 
 #Code cell 4:
 # Downloading the Excel file
@@ -87,3 +92,4 @@ my_data = pd.read_csv("my_uploaded_file.csv", sep=',', header=0, decimal='.', en
 my_data.to_excel("my_output_file.xlsx", header=True, index=False)
 
 ```
+

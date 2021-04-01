@@ -87,9 +87,24 @@ import pandas as pd
 # Importing the CSV file to a Pandas DataFrame
 # and assuming that the separator is a comma and the decimal point is a dot
 my_data = pd.read_csv("my_uploaded_file.csv", sep=',', header=0, decimal='.', encoding='utf_8')
+# either sep=',' or sep=';' or sep=' ' or sep='\t' depending on the separator or delimiter
+# header=0 if there are headers on the first row or header=None if there re no headers
+# decimal='.' or decimal=','
 
 # Exporting the Pandas DataFrame to an Excel file
 my_data.to_excel("my_output_file.xlsx", header=True, index=False)
+# header=True for including the headers in the Excel file
+# index=False for not including an index column (0, 1, 2, 3...)
 
 ```
 
+## A/B Testing
+
+A/B Testing is a term used in the context of business but the more general scientific term is Hypothesis Testing. We could say that A/B Testing is the simplified approach used when testing something (i.e. performing an experiment) in a busindess environment.
+
+It is a predictive approach used whenever we don't have historical data to help us make a business decision and thus, we need to perform an experiment in order to collect that neccesary data.
+
+When performing an A/B Testing, we have a Control Group and a Treatemnt Group.
+
+* Control Group, i.e. the Existing Business Situation
+* Treatment Group i.e., the new business situation we would like to test, or compare, with the existing situation

@@ -108,3 +108,13 @@ When performing an A/B Testing, we have a Control Group and a Treatemnt Group.
 
 * Control Group, i.e. the Existing Business Situation
 * Treatment Group i.e., the new business situation we would like to test, or compare, with the existing situation
+
+There two approaches to conduct an A/B Test. Either by using a Randomized Design or by using a Matched Pair Design:
+
+* Randomized Design
+	* Treatment Unit, randomly chosen
+	* Control Unit, randomly chosen
+
+* Matched Pair Design
+	* Treatment Unit, paired with a control unit
+	* Control Unit, paired with a treatment unit

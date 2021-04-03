@@ -118,3 +118,7 @@ There two approaches to conduct an A/B Test. Either by using a Randomized Design
 * Matched Pair Design
 	* Treatment Unit, paired with a control unit
 	* Control Unit, paired with a treatment unit
+
+In order for the results to be valid, the experiment for both the control and the treatment units should take place under the same conditions. Obviously, in most cases this is almost impossible, so we are trying at least to pinpoint the most important factors that we need to take into consideration in order to create similar conditions for bothe the contorol and the treatment units.
+
+Those factors which are responsible for creating similar conditions, are called control variables and before conducting an experiment we should be able to identify the most important control variables so that we will be able to create similat conditions, as musch as possible. for our experiment.

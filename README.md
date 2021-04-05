@@ -4,6 +4,23 @@
 
 Analyzing a few of the concepts that are presented during the courses of the Predictive Analytics Program
 
+More specifically, the concepts which are thorouglhy analyzed during the course are:
+
+* Linear Regression
+
+* Data Wrangling
+
+* Classification Models
+
+* A/B Testing
+
+* Time Series Forecasting
+
+* Segmentation and Clustering
+
+* Data Visualaziation
+
+
 ## Linear Regression
 
 Linear regression is a mathemacical approach that helps us understand how one variable affects another variable.

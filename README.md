@@ -139,3 +139,17 @@ There two approaches to conduct an A/B Test. Either by using a Randomized Design
 In order for the results to be valid, the experiment for both the control and the treatment units should take place under the same conditions. Obviously, in most cases this is almost impossible, so we are trying at least to pinpoint the most important factors that we need to take into consideration in order to create similar conditions for bothe the contorol and the treatment units.
 
 Those factors which are responsible for creating similar conditions, are called control variables and before conducting an experiment we should be able to identify the most important control variables so that we will be able to create similat conditions, as musch as possible. for our experiment.
+
+
+## t-test
+
+After we setup an A/B test and we collect the necessary data, we will analyze those data using a t-test which will inform us, in an objective way, if the differences that we may have discovered are actual or if they are differnces attributed to various random factors.
+
+The t-test uses our data and calculates just one number, which is the t number and based on that number, we get a probabilitu which tell us the likehood that our results were observed because of random factors.
+
+Thus, if the probability is high, then we assume that there are no actual differences and what we have observed is due to random factors.
+
+But if the probabilty that the results were observed due to random factors is low, then we assume that those differences are actual differences and they do exist.
+
+The theshold, in the vast majority of cases, is 0.05 (or 5%).
+

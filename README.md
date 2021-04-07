@@ -153,3 +153,13 @@ But if the probabilty that the results were observed due to random factors is lo
 
 The theshold, in the vast majority of cases, is 0.05 (or 5%).
 
+Another approach to look at the t-test is to think that our treatmnet units follow a t-distribution with a mean of μ1 and our control units follow a t-distribution with a mean of μ2.
+
+The sample means x1 bar and x2 bar will obviously be different but the question is we were able to perform these experiment many times, would those differences be obvious or not? Thus, we are interest for the populations that have the means μ1 and μ2 and we would like to test, based on our samples, if the μ1 and μ2 are statistically different or not.
+
+Thus, we will be using the following hypothesis testing:
+
+H0: μ1=μ2
+
+H1: μ1<>μ2
+

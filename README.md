@@ -163,3 +163,8 @@ H0: μ1=μ2
 
 H1: μ1<>μ2
 
+Then we will use our data to perform a t-test. The t-test, uses the data to extract just a single number which is the t-test value and based on that value, either by looking on a t-test probablility table or by using software, we get the probablility that corresponds to that particular t-test value, for the given degrees of freedom.
+
+If the probablility is greater than 0.05 (5%) then we fail to reject the null hypothesis and we say that we didn't find any statistical significant differences between the population means, based on our samples (the phrasing sounds a little tricky but in scientific terms we cannot accept a null hypothesis because is like saying that we are absolutely certain that there are no differneces, although in another experiment we may be able to observe those differences).
+
+If though the probability is 0.05 (5%) or smaller, then we reject the null hypothesis and we accept the alternative hypothesis, and thus, there are statistically significant differences between the population means.

@@ -168,3 +168,14 @@ Then we will use our data to perform a t-test. The t-test, uses the data to extr
 If the probablility is greater than 0.05 (5%) then we fail to reject the null hypothesis and we say that we didn't find any statistical significant differences between the population means, based on our samples (the phrasing sounds a little tricky but in scientific terms we cannot accept a null hypothesis because is like saying that we are absolutely certain that there are no differneces, although in another experiment we may be able to observe those differences).
 
 If though the probability is 0.05 (5%) or smaller, then we reject the null hypothesis and we accept the alternative hypothesis, and thus, there are statistically significant differences between the population means.
+
+## Statistical significance
+
+In mathematics its obvious when two numbers are equal and when two numbers are different. These things may look trivial in mathematics, but in statistics things are a little different.
+
+Specifically, in inferential statistics we don't compare jsut two values with each other, but rather we compare two sets of values (samples) that were taken from two greater sets of values (populations).
+
+Using an analogy, we could say that we have two jigsaw puzzles (populations) and someone gives us a few pieces from the first and a few pieces from the second puzzle (samples). We have never seen the completed puzzles and we don't have access to that information, but we need to estimate if those two puzzles depict the same image or two different images, and this should be done by using only the few pieces that we have from each puzzle.
+
+It may look a little exagerating but this is actually what we are doing in inferential statistics. With very limited informations (sample) we are trying to make estimations for the overall population, which is unknown.
+ 

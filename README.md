@@ -179,3 +179,10 @@ Using an analogy, we could say that we have two jigsaw puzzles (populations) and
 
 It may look a little exagerating but this is actually what we are doing in inferential statistics. With very limited informations (sample) we are trying to make estimations for the overall population, which is unknown.
  
+For this reason, the better our sample, the better results we will be able to estimate for the population.
+
+During this process, there two mistakes that we can make with our inference.
+
+* One mistake is to consider that the two populations are equal (i.e. we have only one population) while in reality they are twp different populations
+
+* And the other mistake is to consider that we have two different populations although in reality those two populations are the same (i.e., we have only one population)

@@ -1,5 +1,13 @@
 # Converting a CSV file to an Excel file
 
+Sometimes it can be complicated and time consuming to import CSV data to Excel. Especially whenever there is a CSV file containing decimal numbers in a different format, than the one we are using based on our regional settings.
+
+In such a case, it's much simpler to convert the CSV file to an Excel file using Python and Pandas.
+
+The following approach though, uese Google Colab for the conversion, instead of a local Jupyter Notebook.
+
+This way, the conversion can take place on any computer by just using a browser:
+
 
 ```python
 

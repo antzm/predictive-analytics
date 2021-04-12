@@ -186,3 +186,10 @@ During this process, there two mistakes that we can make with our inference.
 * One mistake is to consider that the two populations are equal (i.e. we have only one population) while in reality they are twp different populations
 
 * And the other mistake is to consider that we have two different populations although in reality those two populations are the same (i.e., we have only one population)
+
+Unfortunately though, there's no way way to eliminate those two errors. We can reduce the first error but at the same time the second error will increase and vice versa. 
+
+We could use as an analogy a person who is judged in a court. Based on the laws of each country, there should be a minimum ammount of evidence available to judge the person as guilty (i.e. we accept the alternative hypothesis). Otherwise, if that minimum ammount of evidence is not met, then that person is not guilty (i.e. we fail to reject the null hypothesis)
+
+By changing the laws in a certain country this process can be made more strict or less strict. The decision is a political decision and each country tries to find a balance for the ammount of evidence that is required for a person to be judged as guilty or not as guilty.
+

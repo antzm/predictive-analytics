@@ -193,3 +193,10 @@ We could use as an analogy a person who is judged in a court. Based on the laws 
 
 By changing the laws in a certain country this process can be made more strict or less strict. The decision is a political decision and each country tries to find a balance for the ammount of evidence that is required for a person to be judged as guilty or not as guilty.
 
+In other words, depending on the legislation, it could be either easier or more difficult to judge a person as guilty based on the the same ammount of evidence.
+
+This way, if the legislation is more strict, then a person could be judged as guilty even if there is little evidence available.
+
+On the other hand, if the legislation in less strict, then a person could be judged aa not guilty even with enough evidence available.
+
+We could think this approach as an invisible line which separates the ammount of evidence needed to take a decision. 

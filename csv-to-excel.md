@@ -54,3 +54,10 @@ files.download('my_output_file.xlsx')
 # just open this notebook and run the cells.
 
 ```
+
+This process can be used for any CSV file, regardless if it has a .csv or a .txt extension. The pandas.read_csv() method, reads any file (regardless of extenion) that contains data in the form of a CSV file.
+
+Although CSV actually statnds for Comma Seperated Values, in reality the same name is used regardless if the separatoer is comma, semicolon, space, tab ir something else.
+
+Thus, regardless of the separator used in a CSV file, the Pandas library will read correctly the file provided we have enter as an argument the correct separator for that file.
+  
